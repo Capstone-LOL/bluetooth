@@ -1,0 +1,4 @@
+Car
+bus
+crosswalk
+tree
