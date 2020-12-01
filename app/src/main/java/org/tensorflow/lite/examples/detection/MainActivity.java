@@ -90,12 +90,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         cameraButton = findViewById(R.id.cameraButton);
-        BtButton = findViewById(R.id.BluetoothButton);
-        imageView = findViewById(R.id.imageView);
 
 
 
-        BtButton.setOnClickListener(v -> {
+
+
+//        BtButton.setOnClickListener(v -> {
 //            mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 //            if (mBluetoothAdapter == null) {
 //                showErrorDialog("This device is not implement Bluetooth.");
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
 //
 //                showPairedDevicesListDialog();
 //            }
-        });
+//        });
 
         Intent intent = new Intent(MainActivity.this, DetectorActivity.class);
 
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
         this.cropBitmap = Utils.processBitmap(sourceBitmap, TF_OD_API_INPUT_SIZE);
 
-        this.imageView.setImageBitmap(cropBitmap);
+//        this.imageView.setImageBitmap(cropBitmap);
 
         initBox();
     }

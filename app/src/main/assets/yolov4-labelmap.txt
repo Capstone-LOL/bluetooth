@@ -1,4 +1,7 @@
 Car
-bus
-crosswalk
-tree
+Bus
+Crosswalk
+BraileBlock
+Bollard
+TrafficLight_Green
+TrafficLight_Red
